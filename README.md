@@ -4,7 +4,7 @@ A Tiffany é uma hexapod desenvolvida para andar de forma autônoma ou para ser 
 # Estrutura física
 A estrutura física do manipulador é composta por quatro motores. Eles são fixadas a peças de PLA para deixar o manipulador firme. As peças são todas projetadas em 3D e foram impressas utilizando PLA, podendo ser encontradas na pasta Pecas_3d deste projeto.
 
-<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/tiffany_cauda.png" width="300"> <img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda.jpeg" width="300">
+<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/tiffany_cauda.png" width="300"> <img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda.png" width="300">
 
 ## Peças 3D em STL
 Na pasta Pecas_3d, estão listadas as peças desenvolvidas neste projeto em STL. Para ajudar, segue abaixo uma lista de todas as peças que devem ser impressas e qual o valor da sua maior dimensão (para ajudar na escolha da impressora):
