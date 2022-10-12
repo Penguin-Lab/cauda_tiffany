@@ -4,7 +4,7 @@ A Tiffany é uma hexapod desenvolvida para andar de forma autônoma ou para ser 
 # Estrutura física
 A estrutura física do manipulador é composta por quatro motores. Eles são fixadas a peças de PLA para deixar o manipulador firme. As peças são todas projetadas em 3D e foram impressas utilizando PLA, podendo ser encontradas na pasta Pecas_3d deste projeto.
 
-<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/tiffany_cauda.png" width="300"> <img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda.png" width="300">
+<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/tiffany_cauda.png" width="400"> <img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda.png" width="300">
 
 ## Peças 3D em STL
 Na pasta Pecas_3d, estão listadas as peças desenvolvidas neste projeto em STL. Para ajudar, segue abaixo uma lista de todas as peças que devem ser impressas e qual o valor da sua maior dimensão (para ajudar na escolha da impressora):
@@ -27,11 +27,11 @@ Na pasta Pecas_3d, estão listadas as peças desenvolvidas neste projeto em STL.
 
 Obs: a tampa de 3 motores deverão ser trocadas pelas peças [TIFFANY_TAMPA_MOTOR.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TIFFANY_TAMPA_MOTOR.STL) para que seja possível fixar os rolamentos nas patas. Serão utilizados 3 rolamentos por pata. Os tubinhos [TUBINHO.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TUBINHO.STL) servem como espaçadores das peças [TIFFANY_CAUDA_MEIO_RIGHT.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TIFFANY_CAUDA_MEIO_RIGHT.STL) e [TIFFANY_CAUDA_MEIO_LEFT.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TIFFANY_CAUDA_MEIO_LEFT.STL):
 
-<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda_explodida.png" width="300">
+<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda_explodida.png" width="500">
 
 Obs2: a base da antena da ESP32CAM fica presa na peças [ESPCAM_CASE_BACK.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/ESPCAM_CASE_BACK.STL) e [TIFFANY_ATTACHMENT_PGS_ROL.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TIFFANY_ATTACHMENT_PGS_ROL.STL) com ajuda da porca que vem junto dela:
 
-<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/antena_montagem.png" width="300">
+<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/antena_montagem.png" width="500">
 
 ## Outros itens da estrutura
 Alguns outros itens são necessários para finalizar a estrutura da cauda da Tiffany:
