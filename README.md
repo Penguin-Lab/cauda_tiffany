@@ -31,7 +31,7 @@ Obs: a tampa de 3 motores deverão ser trocadas pelas peças [TIFFANY_TAMPA_MOTO
 
 Obs2: a base da antena da ESP32CAM fica presa na peças [ESPCAM_CASE_BACK.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/ESPCAM_CASE_BACK.STL) e [TIFFANY_ATTACHMENT_PGS_ROL.STL](https://github.com/Penguin-Lab/cauda_tiffany/blob/main/Pecas_3d/TIFFANY_ATTACHMENT_PGS_ROL.STL) com ajuda da porca que vem junto dela:
 
-<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/cauda_explodida.png" width="300">
+<img src="https://github.com/Penguin-Lab/cauda_tiffany/blob/main/images/antena_montagem.png" width="300">
 
 ## Outros itens da estrutura
 Alguns outros itens são necessários para finalizar a estrutura da cauda da Tiffany:
