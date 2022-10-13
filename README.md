@@ -57,4 +57,4 @@ Os componentes eletrônicos embarcados no robô e equipamentos utilizados são:
   * Bateria Zippy 1100mAh 2s 6,6v (motores)
 
 # Software
-Na pasta de códigos, há o código de programação da ESP32CAM. Este é um exemplo em C++ de comando de movimentação dos motores e de transmissão de imagens da câmera. A ESP32CAM é controlada pelo próprio web server que ela gera (192.168.1.1) para apresentar as imagens.
+Na pasta de códigos, há o código de programação da ESP32CAM. Este é um exemplo em C++ de comando de movimentação dos motores e de transmissão de imagens da câmera. A ESP32CAM é controlada pelo próprio web server que ela gera (192.168.4.1) para apresentar as imagens.
