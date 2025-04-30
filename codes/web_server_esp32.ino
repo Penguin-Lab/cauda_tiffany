@@ -1,5 +1,6 @@
 #include "esp_camera.h"
 #include <WiFi.h>
+  #include "esp_wifi.h"
 //https://www.hackster.io/onedeadmatch/esp32-cam-python-stream-opencv-example-1cc205
 
 
@@ -25,8 +26,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "NET_2GAPT102";
-const char* password = "31898330";
+const char* ssid = "LabSEA 2.4GHz";
+const char* password = "peixeaquatico";
 
 void startCameraServer();
 void setupLedFlash(int pin);
@@ -122,7 +123,12 @@ void setup() {
   setupLedFlash(LED_GPIO_NUM);
 #endif
 
+  // Workaround
+  WiFi.mode(WIFI_STA);
+  esp_wifi_set_max_tx_power(40);
+
   WiFi.begin(ssid, password);
+  // WiFi.begin("Leonardo z2", "BobTheBlob");
   WiFi.setSleep(false);
 
   while (WiFi.status() != WL_CONNECTED) {
@@ -132,6 +138,18 @@ void setup() {
   Serial.println("");
   Serial.println("WiFi connected");
 
+  // Obter e imprimir o endereço MAC
+  uint8_t mac[6];
+  WiFi.macAddress(mac);
+
+  Serial.print("Endereço MAC: ");
+  for (int i = 0; i < 6; ++i) {
+    Serial.print(mac[i], HEX);
+    if (i < 5) {
+      Serial.print(":");
+    }
+  }
+  Serial.println();
   startCameraServer();
 
   Serial.print("Camera Ready! Use 'http://");
